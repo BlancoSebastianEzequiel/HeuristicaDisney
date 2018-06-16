@@ -1,0 +1,44 @@
+Problem:    modelos
+Rows:       7
+Columns:    4
+Non-zeros:  14
+Status:     OPTIMAL
+Objective:  z = 11560000 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 z            B      1.171e+07                             
+     2 espacio      NU          8000                        8000          1465 
+     3 son_vip      NL             0            -0                         -35 
+     4 son_general  NL             0            -0                       -87.5 
+     5 son_total    B            450                         800 
+     6 min_general  NL           500           500                         -20 
+     7 min_vip      B           7750           100               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 vip          B           7750             0               
+     2 general      B            500             0               
+     3 sonido_general
+                    B           62.5             0               
+     4 sonido_vip   B          387.5             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.82e-12 on row 3
+        max.rel.err = 1.17e-16 on row 3
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.14e-13 on column 4
+        max.rel.err = 8.11e-17 on column 4
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
